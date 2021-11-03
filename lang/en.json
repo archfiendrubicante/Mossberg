@@ -1,0 +1,22 @@
+{
+  "MOSSBERG.AbilityStr": "Strength",
+  "MOSSBERG.AbilityCon": "Constitution",
+  "MOSSBERG.AbilityDex": "Dexterity",
+  "MOSSBERG.AbilityInt": "Intelligence",
+  "MOSSBERG.AbilityWis": "Wisdom",
+  "MOSSBERG.AbilityCha": "Charisma",
+
+  "MOSSBERG.AbilityStrAbbr": "str",
+  "MOSSBERG.AbilityConAbbr": "con",
+  "MOSSBERG.AbilityDexAbbr": "dex",
+  "MOSSBERG.AbilityIntAbbr": "int",
+  "MOSSBERG.AbilityWisAbbr": "wis",
+  "MOSSBERG.AbilityChaAbbr": "cha",
+
+  "MOSSBERG.EffectCreate": "Create Effect",
+  "MOSSBERG.EffectToggle": "Toggle Effect",
+  "MOSSBERG.EffectEdit": "Edit Effect",
+  "MOSSBERG.EffectDelete": "Delete Effect",
+
+  "MOSSBERG.Add": "Add"
+}

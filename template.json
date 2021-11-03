@@ -19,8 +19,14 @@
     "character": {
       "templates": ["base"],
       "attributes": {
-        "level": {
-          "value": 1
+        "armortier": {
+          "value": 0
+        },
+        "weapontier":{
+          "value": 0
+        },
+        "tooltier":{
+          "value":0
         }
       },
       "abilities": {

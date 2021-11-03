@@ -81,7 +81,8 @@
     },
     "spell": {
       "templates": ["base"],
-      "spellLevel": 1
+      "spellLevel": 1,
+      "formula": "d20 + @int.mod"
     }
   }
 }

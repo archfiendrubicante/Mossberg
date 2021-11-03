@@ -13,6 +13,14 @@
           "min": 0,
           "max": 4
         },
+        "armorclass":{
+          "value": 5,
+          "min": 5
+        },
+        "damage":{
+          "value": 5,
+          "min": 5
+        },
         "biography": ""
       }
     },

@@ -8,7 +8,7 @@
       {{!-- The grid classes are defined in scss/global/_grid.scss. To use,
       use both the "grid" and "grid-Ncol" class where "N" can be any number
       from 1 to 12 and will create that number of columns.  --}}
-      <div class="resources grid grid-3col">
+      <div class="resources grid grid-4col">
 
         {{!-- "flex-group-center" is also defined in the _grid.scss file
         and it will add a small amount of padding, a border, and will
@@ -30,7 +30,27 @@
           <input type="text" name="data.classcharges.max" value="{{data.classcharges.max}}" data-dtype="Number"/>
           </div>
         </div>
+
+        <div class="resource flex-group-center">
+          <label for="data.armorclass.value" class="resource-label">Armor Class</label>
+          <div class="resource-content flexrow flex-center flex-between">
+          <input type="text" name="data.armorclass.min" value="{{data.armorclass.min}}" data-dtype="Number"/>
+          <span> / </span>
+          <input type="text" name="data.armorclasss.value" value="{{data.armorclass.value}}" data-dtype="Number"/>
+          </div>
+        </div>
+
+        <div class="resource flex-group-center">
+          <label for="data.damage.value" class="resource-label">Damage</label>
+          <div class="resource-content flexrow flex-center flex-between">
+          <input type="text" name="data.damage.min" value="{{data.damage.min}}" data-dtype="Number"/>
+          <span> / </span>
+          <input type="text" name="data.damage.value" value="{{data.damage.value}}" data-dtype="Number"/>
+          </div>
+        </div>
       </div>
+
+
       <div class="resources grid grid-3col">
         <div class="resource flex-group-center">
           <label for="data.attributes.armortier.value" class="resource-label">Armor Tier</label>

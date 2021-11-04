@@ -60,7 +60,37 @@
     },
     "npc": {
       "templates": ["base"],
-      "cr": 0
+      "attributes": {
+        "armortier": {
+          "value": 0
+        },
+        "weapontier":{
+          "value": 0
+        },
+        "tooltier":{
+          "value":0
+        }
+      },
+      "abilities": {
+        "str": {
+          "value": 10
+        },
+        "dex": {
+          "value": 10
+        },
+        "con": {
+          "value": 10
+        },
+        "int": {
+          "value": 10
+        },
+        "wis": {
+          "value": 10
+        },
+        "cha": {
+          "value": 10
+        }
+      }
     }
   },
   "Item": {

@@ -77,7 +77,8 @@
       "formula": "d20 + @str.mod + ceil(@lvl / 2)"
     },
     "feature": {
-      "templates": ["base"]
+      "templates": ["base"],
+      "formula": "d20 + @int.mod"
     },
     "spell": {
       "templates": ["base"],
